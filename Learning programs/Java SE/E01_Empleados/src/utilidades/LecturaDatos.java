@@ -25,7 +25,6 @@ public class LecturaDatos {
 		return leerString();
 	}
 
-	
 	public static boolean leerBoolean() {
 		return new Scanner(System.in).nextBoolean();
 	}
@@ -34,7 +33,7 @@ public class LecturaDatos {
 		System.out.println(msg);
 		return leerBoolean();
 	}
-	
+
 	public static float leerFloat() {
 		return new Scanner(System.in).nextFloat();
 	}
@@ -43,7 +42,7 @@ public class LecturaDatos {
 		System.out.println(mensaje);
 		return leerFloat();
 	}
-	
+
 	public static double leerDouble() {
 		return new Scanner(System.in).nextDouble();
 	}
@@ -52,6 +51,5 @@ public class LecturaDatos {
 		System.out.println(mensaje);
 		return new Scanner(System.in).nextDouble();
 	}
-
 
 }

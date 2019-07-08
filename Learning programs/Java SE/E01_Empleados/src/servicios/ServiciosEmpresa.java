@@ -7,9 +7,9 @@ import beans.Empleado;
 //import beans.EmpleadoMaker;
 
 public class ServiciosEmpresa implements IServiciosEmpresa {
-	
+
 	private IDatosEmpresa datos = new DatosEmpresa();
-	
+
 	public void addEmpleado(Empleado p) {
 		datos.addEmpleado(p);
 	}
@@ -24,43 +24,30 @@ public class ServiciosEmpresa implements IServiciosEmpresa {
 		// opcion 03 <-- la mas correcta
 		// datos.addEmpleado(EmpleadoMaker.dameEmpleado());
 	}
-	
+
 	public void addDirector(Empleado a) {
 		datos.addDirector(a);
 	}
-	
-	
+
 	public void addDirector() {
 		datos.addDirector();
 	}
-	
-	
-	
-	
+
 	public void addGerente(Empleado a) {
 		datos.addGerente(a);
 	}
-	
-	
+
 	public void addGerente() {
 		datos.addGerente();
 	}
-	
-	
-	
-	
-	
-	
 
 	public void listado(Empleado e) {
 		datos.listado(e);
 	}
-	
+
 	public void listado() {
 		datos.listado();
 	}
-	
-	
 
 	@Override
 	public int encontrarEmpleado(Empleado e) {
@@ -100,7 +87,5 @@ public class ServiciosEmpresa implements IServiciosEmpresa {
 	public void CasosDePrueba() {
 		datos.CasosDePrueba();
 	}
-
-
 
 }
