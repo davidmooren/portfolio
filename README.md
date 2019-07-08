@@ -8,7 +8,6 @@
 
 <img src="https://i.udemycdn.com/course/750x422/701426_9d54_2.jpg">
 
-
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
@@ -29,10 +28,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[<img src="https://i.ibb.co/7XVCcZd/Imagen-carpetas-eclipse.jpg">](https://example.com)
 
 [Español] <br >
-Portafolio 
+
+Programas realizados en el curso de 240 horas intensivas en 1 mes de Java en la empresa Luca TIC soluciones S.L. 
 
 [Ingles]
 
@@ -41,6 +41,7 @@ Portafolio
 * [Java](https://www.java.com/es/)
 * [Bootstrap](https://getbootstrap.com)
 * [Spring](https://spring.io/)
+* [Maven](https://maven.apache.org/)
 
 
 <!-- GETTING STARTED -->
