@@ -4,6 +4,9 @@
 *** an issue with the tag "enhancement".
 *** Thanks again! Now go create something AMAZING! :D
 -->
+                                        
+
+<img src="https://i.udemycdn.com/course/750x422/701426_9d54_2.jpg">
 
 
 <!-- TABLE OF CONTENTS -->
