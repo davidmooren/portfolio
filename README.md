@@ -50,7 +50,7 @@ Programas realizados para aprender en el curso de 240 horas intensivas en 1 mes 
 
 Para poder ejecutar los programas sigue las siguientes instrucciones: 
 
-* [Prerequisites](###Prerequisites)
+* [Prerequisites](#Prerequisites)
 
 ### Prerequisites
 
