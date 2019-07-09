@@ -56,7 +56,8 @@ Para poder ejecutar los programas sigue las siguientes instrucciones:
 
 ### Prerequisites
 
-1. Java compatible IDE
+1. Java compatible IDE <br >
+2. 
 
 ### Installation
 
