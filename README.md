@@ -32,9 +32,9 @@
 
 [Español] <br >
 
-Programas realizados en el curso de 240 horas intensivas en 1 mes de Java en la empresa Luca TIC soluciones S.L. 
+Programas realizados para aprender en el curso de 240 horas intensivas en 1 mes de Java en la empresa Luca TIC soluciones S.L. 
 
-[Ingles]
+[Ingles] <br >
 
 ### Built With
 
@@ -42,13 +42,15 @@ Programas realizados en el curso de 240 horas intensivas en 1 mes de Java en la 
 * [Bootstrap](https://getbootstrap.com)
 * [Spring](https://spring.io/)
 * [Maven](https://maven.apache.org/)
+* [Tomcat](http://tomcat.apache.org/)
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
+Para poder ejecutar los programas sigue las siguientes instrucciones: 
 
-To get a local copy up and running follow these simple example steps.
+* [Prerequisites](###Prerequisites)
 
 ### Prerequisites
 
