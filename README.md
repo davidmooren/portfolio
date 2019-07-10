@@ -61,12 +61,12 @@ Para poder ejecutar los programas sigue las siguientes instrucciones:
 
 ### Installation
 
-1. Clone repository
+1. Clonar repositorio
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-
+Son diferentes programas, desde el mas basico "Hola mundo" hasta proyectos mas complejos con Spring, Rest y Angular
 
 
 <!-- ROADMAP -->
