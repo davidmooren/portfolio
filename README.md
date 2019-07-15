@@ -5,7 +5,7 @@
 *** Thanks again! Now go create something AMAZING! :D
 -->
                                         
-:construction:
+<p align="center">
 <img src="https://i.udemycdn.com/course/750x422/701426_9d54_2.jpg">
 
 <!-- TABLE OF CONTENTS -->
