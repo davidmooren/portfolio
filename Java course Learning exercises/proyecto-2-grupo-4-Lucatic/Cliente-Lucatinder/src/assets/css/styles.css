@@ -1,0 +1,101 @@
+
+body{
+    background-image: url(../images/bgindexcoral-.jpg);
+    background-attachment: fixed;
+    background-color: coral;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    font-family: 'Playfair Display', serif;
+}
+h2{
+    padding-top: 2em;
+}
+hr{
+    color: white;
+
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    border:0;
+    outline:0;
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+  }
+input[type="text"], input[type="number"]{
+      border-radius: 9px;
+      padding: 1em;
+      margin-bottom: 10px;
+}
+input[type="submit"]{
+    padding: 0.7em;
+    width: 80px;
+    border-radius: 50px;
+    border-color: rgb(255, 72, 69);
+    cursor: pointer;
+}
+.site-logo a{
+    font-family: 'Righteous', cursive;
+    color: white;
+    padding-left: 2em;
+}
+.box-index{
+    margin: 0 auto;
+    padding-top: 7em;
+    width: 80%;
+    text-align: center;
+}
+.box-index h1{
+    color: white;
+    font-weight: 500;
+}
+.listperfil{
+    text-align: center;
+}
+#login-button{
+    padding: 0.7em;
+    border-radius: 10px;
+}
+#menu{
+    text-align: center;
+}
+table{
+    background-color: white;
+}
+
+.th{
+    margin-right: 20px!important;
+}
+#text-id{
+    color: white;
+}
+td{
+    padding: 0.5em;
+}
+#box-match{
+    text-align: center;
+}
+#box-edit{
+    text-align: center;
+    margin: 0 auto;
+}
+#tabla-edit{
+   margin: 0 auto;
+   border-radius: 10px;
+}
+.tabla-add{
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+}
+#titleregistro{
+    text-align: center;
+    color: white;
+}
+.hr{
+    width: 70%;
+}
+

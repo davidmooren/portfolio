@@ -1,0 +1,49 @@
+
+ <div class="site-blocks-cover overlay"  data-aos="fade">
+
+  <div class="container box">
+    
+    <div class="row align-items-center justify-content-center">
+        
+      <div class="col-md-12  text-center">
+
+          <div id="boxperfil">
+              
+            <h2 id="text-id">Tu id es: <span>{{perfilService.getPerfilLoggedIn().idusuario}}</span></h2>
+            <hr>
+            <br>
+            <div>
+            <table id="table">
+                <tbody>
+
+                    <tr *ngFor="let perfil of perfiles; let i = index">
+                      
+                        <td><a href="#" [routerLink]="['/like']">
+                          <img src="../../../assets/images/checked.png"></a>
+                        </td>
+
+                        <td><span>{{perfil.nombre}}</span></td>
+
+                        <td><span>{{perfil.genero}}</span></td>
+
+                        <td><span>{{perfil.fecha_nac}}</span></td>
+
+                        <td><span>{{perfil.poblacion}}</span></td>
+
+                        <td><span>{{perfil.descripcion}}</span></td>                        
+
+                        <td><a href="#" [routerLink]="['/dislike']">
+                          <img src="../../../assets/images/close.png"></a>
+                        </td>
+                        
+                    </tr>
+                    <br>
+                </tbody> 
+            </table>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>  
+
+

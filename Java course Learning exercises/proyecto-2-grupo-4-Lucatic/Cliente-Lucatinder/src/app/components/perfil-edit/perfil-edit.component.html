@@ -1,0 +1,38 @@
+   <div id="box-edit">
+
+
+    <h2 id="text-id">Modifica tu perfil</h2>
+    <hr>
+    <br>
+    <form>
+      <table id="tabla-edit">
+				<tr>
+					<td><label for="nombre">Nombre</label></td>
+					<td><input type="text" [(ngModel)]="perfil.nombre" placeholder="Introduce tu nombre" name="nombre" id="nombre"/></td>
+        </tr>
+        <tr>
+					<td><label for="genero">Genero</label></td>
+					<td>
+            <input type="radio" [(ngModel)]="perfil.genero" name="genero" id="genero" value="h">Hombre
+            <input type="radio" [(ngModel)]="perfil.genero" name="genero" id="genero" value="m">Mujer
+          </td>
+        </tr>
+        <tr>
+            <td><label for="fecha_nac">Fecha de nacimiento</label></td>
+            <td><input type="date" value="15/10/2016" datetime="dd/MM/yyyy" [(ngModel)]="perfil.fecha_nac" name="fecha_nac" id="fecha_nac" /></td>
+          </tr>
+				<tr>
+          
+					<td><label for="poblacion">Población</label></td>
+					<td><input type="text" [(ngModel)]="perfil.poblacion" placeholder="Introduce tu localidad" name="poblacion" id="poblacion"/></td>
+        </tr>
+        <tr>
+            <td><label for="descripcion">Descripción</label></td>
+            <td><input type="text" [(ngModel)]="perfil.descripcion" placeholder="Introduce una breve descripción" name="descripcion" id="descripcion"/></td>
+          </tr>
+          <tr>
+					<td><input type="button" (click)="modificarPerfil()" routerLink="/perfilList" value="Guardar cambios"></td>
+				</tr>
+			</table>
+    </form>
+  </div>

@@ -1,0 +1,29 @@
+ 
+<div id="box-match">
+    <h2  id="text-id">Listado de matches</h2>
+    
+      <div class="col-md-6">
+        
+          <table id="table">
+              <tbody>
+
+                  <tr *ngFor="let perfil of matches; let i = index">
+
+
+                      <td><span>{{perfil.nombre}}</span></td>
+
+                      <td><span>{{perfil.genero}}</span></td>
+
+                      <td><span>{{perfil.fecha_nac}}</span></td>
+
+                      <td><span>{{perfil.poblacion}}</span></td>
+
+                      <td><span>{{perfil.descripcion}}</span></td>                        
+
+                      
+                  </tr>
+                  <br>
+              </tbody> 
+          </table>
+      </div>
+</div>
