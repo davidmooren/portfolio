@@ -1,0 +1,33 @@
+Esta realizado con Spring Boot
+Basicamente es el ejercicio 11 Boot pero con Repositorios automatizados con Spring Data
+
+Se ha puesto sintaxis más moderna
+   @GetMapping
+   @PostMapping
+   Usar ModelMap en vez de ModelAndView
+   Evitar HttpServletRequest y usar Param
+
+https://dzone.com/articles/add-custom-functionality-to-a-spring-data-reposito
+
+Para entender el funcionamiento
+http://www.baeldung.com/spring-data-repositories
+
+Notice the typical CRUD functionality:
+
+save(…) – save an Iterable of entities. Here, we can pass multiple objects to save them in a batch
+findOne(…) – get a single entity based on passed primary key value
+findAll() – get an Iterable of all available entities in database
+count() – return the count of total entities in a table
+delete(…) – delete an entity based on the passed object
+exists(…) – verify if an entity exists based on the passed primary key value
+
+Una pedazo de idea es hacerlo generico todo
+https://www.petrikainulainen.net/programming/spring-framework/spring-data-jpa-tutorial-adding-custom-methods-into-all-repositories/
+	
+
+Para ejecutarlo, ejecutar (modo consola) el Spring11MvcHibernateBootApplication
+Se despliega el Tomcat interno y permanece en modo Listener.
+
+En el navegador ejecutar 
+http://localhost:8080/
+

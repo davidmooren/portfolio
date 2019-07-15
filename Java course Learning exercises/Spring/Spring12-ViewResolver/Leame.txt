@@ -1,0 +1,17 @@
+Este ejercicio permite ver un fichero en distintos formatos
+
+
+pizzavalley/margherita.xml
+pizzavalley/margherita.json
+pizzavalley/margherita.xls
+pizzavalley/margherita
+pizzavalley/margherita.pdf
+
+
+http://websystique.com/springmvc/spring-4-mvc-contentnegotiatingviewresolver-example/
+
+
+
+Para entender como funciona JAXB echa un vistazo a
+https://springframework.guru/using-jaxb-for-xml-with-java/
+

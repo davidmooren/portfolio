@@ -1,0 +1,44 @@
+Idea extraida de
+https://www.dineshonjava.com/microservices-with-spring-boot/
+
+
+INFORMACION BASICA
+==================
+
+Microservices allows us to break our large system into the number of independent collaborating processes
+It became more popular since 2010.
+Microservices architecture allows avoiding monolith application for the large system. 
+It provides loose coupling between collaborating processes which running independently in different 
+environments with tight cohesion
+
+
+PASOS
+=======
+1) Creating Discovery Service (Creating Eureka Discovery Service)
+2) Creating MicroService (the Producer)
+	2a) Register itself with Discovery Service with logical service.
+3) Create Microservice Consumers find Service registered with Discovery Service
+	3a) Discovery client using a smart RestTemplate to find microservice.
+	
+PASOS PARA ARRANCAR
+===================
+
+01) Ejecutar 14a
+En localhost:1111 se abrirá Eureka Server
+
+02) Ejecutar Spring14b
+Se registrará el servicio
+
+03) Ejecutar Spring14c
+Se registrará el cliente
+En localhost:8080 se puede ver como funciona
+
+
+PASO 01 - Service Discovery
+===========================
+How do services find each other?
+What happens if we run multiple instances for a service
+
+Spring Cloud support several ways to implement service discovery but I am going to use Eureka created by Netflix
+
+

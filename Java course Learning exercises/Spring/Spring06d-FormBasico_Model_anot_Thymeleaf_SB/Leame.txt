@@ -1,0 +1,11 @@
+Uso el Actuator para ver los mapeos porque uso Spring Boot 2.x
+
+En este caso uso Thymeleaf
+
+Cambios
+- en vez de JSP uso HTML
+- La ruta es diferente
+- No he necesitado un WAR. VAle un JAR
+- La estructura del HTM tiene alguna variacion con respecto al JSP
+- Importar la dependencia en el POM
+- En el Properties no uso los prefijos y sufijos

@@ -1,0 +1,12 @@
+Ejemplo extraido de Java SE 7 Programmacing (Tema JDBC)
+Documentacion Oficial Oracle.
+Version propia
+
+- Clases más limpias
+- Clase ConexionDB
+
+Por hacer
+- Limpiar el main()
+- Extraer el inputEmployee a Employee mediante un factory
+- Clase Servicio
+- Clase Datos

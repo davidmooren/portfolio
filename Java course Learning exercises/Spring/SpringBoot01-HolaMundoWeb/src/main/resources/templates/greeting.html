@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Getting Started: Serving Web Content</title>
+<meta charset="UTF-8" />
+<link rel="stylesheet" 
+		th:href="@{/css/estilos.css}"
+		href="../../css/main.css" />
+</head>
+<body>
+	<h2>Con Thymeleaf</h2>
+	<p th:text="'Hello, ' + ${name} + '!'" />
+	<p>fijate que esto es un html y reconoce el Expression Language o lo que sea eso</p>
+</body>
+</html>

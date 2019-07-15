@@ -1,0 +1,39 @@
+﻿Ejemplo sacado de 
+https://spring.io/guides/gs/testing-web/
+
+==========================
+Para Ideas de pruebas
+https://www.logicbig.com/how-to/code-snippets/jcode-spring-mvc-junit-test.html
+https://github.com/MWhyte/spring-security-basic/blob/master/src/test/java/com/codenerve/spring/sec/ApplicationTests.java
+============================
+
+Info
+https://docs.spring.io/spring-boot/docs/1.5.10.RELEASE/reference/html/boot-features-testing.html
+
+1) Ejecutar ApplicationStart() --> levanta Tomcat
+2) Ejecutar cada ejemplo mediante 
+      bt dcho > Run As > Junit Test
+
+Si no usas Bootstrap hay clases para trabajar en Spring aunque en todas usa ademas Junit
+The org.springframework.test.util package contains several general purpose utilities for use in unit and integration testing.
+
+EJEMPLOS 
+
+1) ApplicationTest01_contextloadApplication
+   Prueba Básica
+   
+2) ApplicationTest02_autowired
+   Comprobar si inyecta algo
+   
+3) ApplicationTest03_HttpRequest
+   Asegura que ha llegado info HTTP
+   
+4) ApplicationTest04_ownServer
+   Igual que el 03 pero sin iniciar el server. Uso un mock. Ver salida
+   
+5) ApplicationTest05_webLayer
+   Test para la capa Web layer sin arrancar servidor
+   ---> es el mismo. He juntado el 4 y el 5
+   
+6) ApplicationTest06_WebMock
+   Complicando el controller

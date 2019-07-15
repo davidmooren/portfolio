@@ -1,0 +1,2 @@
+Ejemplo extraido de Java SE 7 Programmacing (Tema JDBC)
+Documentacion Oficial Oracle

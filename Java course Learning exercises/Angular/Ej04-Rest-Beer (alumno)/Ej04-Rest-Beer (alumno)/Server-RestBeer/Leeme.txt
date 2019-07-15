@@ -1,0 +1,28 @@
+Idea extraida de
+https://developer.okta.com/blog/2017/04/26/bootiful-development-with-spring-boot-and-angular
+
+====================
+
+Este forma la parte Server de la aplicacion
+La parte cliente es un "archivo hermano"
+
+La aplicacion se puede arrancar desde
+
+http://localhost:8080/good-beers
+Es como un servicio REST y proporciona el JSOn de los datos
+
+Si lo quieres como prueba puede usar HTTPie (para terminal) o POstman
+
+====================
+La parte cliente está realizada de forma separada.
+Es un proyecto Angular que consume los datos enviados desde el servidor
+
+====================
+Configurar CORS
+El controlador emplea     @CrossOrigin(origins = "http://localhost:4200")
+to enable cross-origin resource sharing (CORS) from the client (http://localhost:4200).
+
+Si no se hace hay un error
+Failed to load http://localhost:8080/good-beers: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://localhost:4200' is therefore not allowed access.
+
+

@@ -1,0 +1,8 @@
+Restaurante v3b
+
+Es el ejercicio 3a al cual le añado la parte de Listener
+Revisar
+- ControlEventosListerner --> con 6 metodos
+
+Aparte par ver su uso se genera nada más comenzar una variable on una frase (ver ContextInitialized)
+Esa frase se saca en parte del web.xml

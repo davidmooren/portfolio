@@ -1,0 +1,8 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+h1{
+    padding: 0.3em;
+}
+.container{
+    background-color: #f5f5f5;
+    padding: 2em;
+}

@@ -1,0 +1,26 @@
+<div>
+  <form #beerForm="ngForm" (ngSubmit)="save(beerForm.value)">
+    <header>
+      <h2>{{beer.name ? 'Edit' : 'Add'}} Beer</h2>
+    </header>
+    <div>
+      <input type="hidden" name="href" [(ngModel)]="beer.href">
+      <div>
+        <input placeholder="Beer Name" [(ngModel)]="beer.name"
+               required name="name" #name>
+      </div>
+    </div>
+    <div>
+      <button color="primary" type="submit"
+              [disabled]="!beerForm.form.valid">Save</button>
+      <button color="secondary" (click)="remove(beer.href)"
+              *ngIf="beer.href" type="button">Delete</button>
+      <a routerLink="/beer-list">Cancel</a>
+    </div>
+    <footer>
+      <div class="giphy">
+        <img src="{{beer.giphyUrl}}" alt="{{beer.name}}">
+      </div>
+    </footer>
+  </form>
+</div>

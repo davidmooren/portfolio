@@ -1,0 +1,7 @@
+Para mejorar esta version 11
+
+- Eliminar Elementos viejunos: Ej HttpServletRequest request para recuperar datos
+- Usar mejoras HTTP:    @GetMapping, @PostMapping
+- Trabajar con repositorios automatizados
+
+Se realizará en el siguiente

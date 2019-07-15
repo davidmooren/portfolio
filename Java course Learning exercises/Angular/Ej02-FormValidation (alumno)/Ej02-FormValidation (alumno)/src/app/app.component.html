@@ -1,0 +1,43 @@
+<!-- app.component.html -->
+
+<div class="container">
+  <h1>
+    Welcome to {{title}}!!
+  </h1>
+  <p>Este es un formulario React.Mira en el Readme.md</p>
+  <p>We have used Reactive Forms in our example in this article. Reactive forms is an Angular technique for creating forms in a reactive style. Angular reactive forms facilitate a reactive style of programming that favors explicit management of the data flowing between a non-UI data model (typically retrieved from a server) and a UI-oriented form model that retains the states and values of the HTML controls on the screen. Reactive forms offer the ease of using reactive patterns, testing, and validation.</p>
+  <!-- In this HTML code, I have assigned the global form group object called angForm. 
+    This is the top-level object.-->
+  <form [formGroup]="angForm" novalidate>
+        <div class="form-group">
+            <label>Name:</label>
+            <input class="form-control" formControlName="name" type="text">
+        </div>
+        <div *ngIf="angForm.controls['name'].invalid && (angForm.controls['name'].dirty || angForm.controls['name'].touched)" class="alert alert-danger">
+            <div *ngIf="angForm.controls['name'].errors.required">
+              Name is required.
+            </div>
+        </div>
+         <div class="form-group">
+            <label>Address:</label>
+            <input class="form-control" formControlName="address" type="text">
+        </div>
+        <!-- $dirty: True if user has already interacted with the form.-->
+        <div *ngIf="angForm.controls['address'].invalid && (angForm.controls['address'].dirty || angForm.controls['address'].touched)" class="alert alert-danger">
+            <div *ngIf="angForm.controls['address'].errors.required">
+              email is required.
+            </div>
+        </div>
+        <!-- $pristine: True if user has not interacted with the form yet.-->
+        <!-- https://docs.angularjs.org/api/ng/type/form.FormController-->
+        <button type="submit"
+            [disabled]="angForm.pristine || angForm.invalid" class="btn btn-success">
+            Save
+        </button>
+  </form>
+  <br />
+  <p>Form value: {{ angForm.value | json }}</p>
+  <p>Form status: {{ angForm.status | json }}</p>
+</div>
+
+

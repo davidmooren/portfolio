@@ -1,0 +1,20 @@
+Ejemplo basado en
+https://spring.io/guides/gs/serving-web-content/
+
+Ejercicio basado en Spring Boot
+Incluye plantillas thymeleaf
+Incorpora spring-boot-devtools para mejorar el refresco
+
+IMPORTANTE: 
+1) Se arranca la aplicacion mediante el main().
+2) Monta un Apache por defecto (no hay que tenerlo abierto)
+3) Para arrancar escribir ahora en el navegador
+
+http://localhost:8080/greeting
+http://localhost:8080/greeting?name=Antonio
+
+NO incluye archivo .properties
+
+=============================
+
+https://www.baeldung.com/spring-boot-migration

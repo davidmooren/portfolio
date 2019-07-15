@@ -1,0 +1,52 @@
+En este servicio REST se emplea Spring Data
+COmo está actualizado (Spring Boot 2.x)usa ultimas versiones y hay algun cambio
+
+There has been some changes with the recent versions of spring data jpa and they have removed the findOne()
+ method which used work earlier. 
+ you can check the post here for reference
+ https://stackoverflow.com/a/44103020/2600196
+ 
+╔═════════════════════╦═══════════════════════╗
+║      Old name       ║       New name        ║
+╠═════════════════════╬═══════════════════════╣
+║ findOne(…)          ║ findById(…)           ║
+╠═════════════════════╬═══════════════════════╣
+║ save(Iterable)      ║ saveAll(Iterable)     ║
+╠═════════════════════╬═══════════════════════╣
+║ findAll(Iterable)   ║ findAllById(…)        ║
+╠═════════════════════╬═══════════════════════╣
+║ delete(ID)          ║ deleteById(ID)        ║
+╠═════════════════════╬═══════════════════════╣
+║ delete(Iterable)    ║ deleteAll(Iterable)   ║
+╠═════════════════════╬═══════════════════════╣
+║ exists()            ║ existsById(…)         ║
+╚═════════════════════╩═══════════════════════╝
+
+ 
+ 
+ // Previously ID extends Serializable
+interface CrudRepository<T, ID> {
+
+	<S extends T> … save(S entity);
+	// Previously save(Iterable)
+	<S extends T> … saveAll(Iterable<S> entities);
+
+	// Previously findOne(ID)
+	… findById(ID id);
+
+	// Previously exists(…)
+	… existsById(ID id);
+
+	… findAll();
+	… findAllByIds(Iterable<ID> ids);
+
+	… count();
+
+	// Previously delete(ID)
+	… deleteById(ID id);
+	… delete(T entity);
+
+	// Previously delete(Iterable)
+	… deleteAll(Iterable<? extends T> entities);
+	… deleteAll();
+}

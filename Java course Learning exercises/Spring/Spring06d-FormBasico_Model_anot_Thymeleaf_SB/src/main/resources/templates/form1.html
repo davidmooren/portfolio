@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<!-- Static content -->
+<link rel="stylesheet" href="/resources/css/estilos.css">
+
+<title>Spring06d-FormBasico_Model_anot_SB - Formulario 1</title>
+</head>
+<body>
+
+	<div id="contenedor">
+		<h2>
+			Spring06d-FormBasico_Model_anot_SB - Form1 <br />(Anotac +
+			Model + Thymeleaf + SB)
+		</h2>
+		<form 
+				method="post" 
+				th:object="${cliente}"
+				th:action="@{/addCliente}">
+			<table>
+				<tr>
+					<td><label for="nombre">Nombre</label></td>
+					<td><input type="text" th:field="*{nombre}" /></td>
+				</tr>
+				<tr>
+					<td><label for="id">Nombre Usuario</label></td>
+					<td><input type="text" th:field="*{id}" /></td>
+				</tr>
+				<tr>
+					<td><label for="password">Contraseña</label></td>
+					<td><input type="password" th:field="*{password}" /></td>
+				</tr>
+			</table>
+			<br />
+			<p>
+				<input type="submit" value="Dar de alta" />
+			</p>
+			<p>
+				<input type="button" value="Listar Clientes" />
+			</p>
+		</form>
+	</div>
+</body>
+</html>
