@@ -91,12 +91,6 @@ Follow the import instructions to the IDE you want to use (There are more than t
 Son diferentes programas, desde el mas basico "Hola mundo" hasta proyectos mas complejos con Spring, Rest y Angular
 
 
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
