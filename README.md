@@ -87,9 +87,28 @@ Follow the import instructions to the IDE you want to use (There are more than t
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+[Español] <br >
+Son diferentes programas, desde el mas basico "Hola mundo" hasta proyectos mas complejos con BBDD,Spring, Rest y Angular
 
-Son diferentes programas, desde el mas basico "Hola mundo" hasta proyectos mas complejos con Spring, Rest y Angular
+Entre ellos dos proyectos grupales llamados:
 
+-Proyecto-1-Java-BBDD	
+-Proyecto-2-grupo-4-Lucatic
+
+Utilizando la metodologia de trabajo SCRUM y poniendo enfasis en mejorar las "soft skills"
+ 
+
+
+[Ingles] <br >
+
+They are different programs, from the most basic "Hello world" to more complex projects with BBDD, Spring, Rest and Angular
+
+Among them two group projects called:
+
+-Proyecto-1-Java-BBDD	
+-Proyecto-2-grupo-4-Lucatic
+
+Using the SCRUM working methodology and putting emphasis on improving the "soft skills"
 
 
 <!-- CONTRIBUTING -->
