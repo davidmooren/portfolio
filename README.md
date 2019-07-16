@@ -35,17 +35,22 @@
 
 [Español] <br >
 
-Programas realizados para aprender en el curso de 240 horas intensivas en 1 mes de Java en la empresa Luca TIC soluciones S.L. 
+Programas realizados para aprender a programar con Java en el curso de 240 horas intensivas en 1 mes en la empresa Luca TIC soluciones S.L. 
 
 [Ingles] <br >
 
-### Built With
+### Built With / Hecho con 
 
 * [Java](https://www.java.com/es/)
 * [Bootstrap](https://getbootstrap.com)
 * [Spring](https://spring.io/)
 * [Maven](https://maven.apache.org/)
 * [Tomcat](http://tomcat.apache.org/)
+* [Angular](https://angular.io/)
+* [AngularJS](https://angularjs.org/)
+* [JPA](https://www.oracle.com/technetwork/java/javaee/tech/persistence-jsp-140049.html)
+* [UML](https://www.uml.org/)
+* [JDBC](https://www.oracle.com/technetwork/java/javase/jdbc/index.html)
 
 
 <!-- GETTING STARTED -->
