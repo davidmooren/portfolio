@@ -27,8 +27,11 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<p align="center">
-[<img src="https://i.ibb.co/7XVCcZd/Imagen-carpetas-eclipse.jpg">](https://github.com/davidmooren/portfolio/tree/master/Learning%20programs/Java%20SE)
+
+  <p align="center">
+  <a href="https://github.com/davidmooren/portfolio/tree/master/Learning%20programs/Java%20SE)">
+    <img src="https://i.ibb.co/7XVCcZd/Imagen-carpetas-eclipse.jpg" alt="Logo" width="80" height="80">
+  </a>
 
 [Español] <br >
 
