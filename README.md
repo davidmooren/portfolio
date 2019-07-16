@@ -146,7 +146,10 @@ Distributed under the MIT License. See [`LICENSE`](https://github.com/othneildre
 <!-- CONTACT -->
 ## Contact
 
-David - cesardavidmor@gmail.com
+Nombre: David <br >
+Email:cesardavidmor@gmail.com <br >
+Nº Movil: 601 022 399
+
 
 
 <!-- ACKNOWLEDGEMENTS -->
