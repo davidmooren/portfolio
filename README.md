@@ -82,7 +82,7 @@ Seguir las instrucciones de importación al IDE que quieras usar (Hay mas de dos
 
 Follow the import instructions to the IDE you want to use (There are more than two IDE's but these are some of the most used):
 
-1.[`Importar a Eclipse`](https://github.com/collab-uniba/socialcde4eclipse/wiki/How-to-import-a-GitHub-project-into-Eclipse)
+1.[`Importar a Eclipse`](https://github.com/collab-uniba/socialcde4eclipse/wiki/How-to-import-a-GitHub-project-into-Eclipse)<br >
 2.[`Importar a NetBeans`](https://netbeans.org/kb/docs/ide/git.html)
 
 <!-- USAGE EXAMPLES -->
