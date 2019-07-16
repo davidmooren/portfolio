@@ -39,9 +39,10 @@ Programas realizados para aprender a programar con Java en el curso de 240 horas
 
 [Ingles] <br >
 
-### Built With 
-    <Strong>Hecho con </strong>
+Programs made to learn to program with Java in the course of 240 intensive hours in 1 month in the company Luca TIC Soluciones S.L.
 
+### Built With 
+     
 * [Java](https://www.java.com/es/)
 * [Bootstrap](https://getbootstrap.com)
 * [Spring](https://spring.io/)
@@ -56,8 +57,12 @@ Programas realizados para aprender a programar con Java en el curso de 240 horas
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
+[Español] <br >
 Para poder ejecutar los programas sigue las siguientes instrucciones: 
+
+[Ingles] <br >
+
+To execute the programs, follow the following instructions:
 
 * [1. Prerequisites](#Prerequisites)
 
@@ -66,11 +71,19 @@ Para poder ejecutar los programas sigue las siguientes instrucciones:
 ### Prerequisites
 
 1. Java compatible IDE <br >
-2. 
+2. Instalar JDK
 
 ### Installation
 
-1. Clonar repositorio
+[Español] <br >
+Seguir las instrucciones de importación al IDE que quieras usar (Hay mas de dos IDE's pero estos son unos de los mas usados):
+
+[Ingles] <br >
+
+Follow the import instructions to the IDE you want to use (There are more than two IDE's but these are some of the most used):
+
+1.
+2.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
