@@ -66,7 +66,7 @@ To execute the programs, follow the following instructions:
 
 * [1. Prerequisites](#Prerequisites)
 
-* [2. Usage](#Usage)
+* [2. Installation](#Installation)
 
 ### Prerequisites
 
