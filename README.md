@@ -38,8 +38,8 @@ Programas realizados para aprender a programar con Java en el curso de 240 horas
 Programs made to learn to program with Java in the course of 240 intensive hours in 1 month in the company Luca TIC Soluciones S.L.
 
  <p align="center">
-  <a href="https://github.com/davidmooren/portfolio/tree/master/Java%20course%20Learning%20exercises)">
-    <img src="https://i.ibb.co/m4MzmdQ/DIPLOMA.jpg" alt="Logo" width="800" height="500">
+  <a href="https://ibb.co/7K6yHB7s)">
+    <img src="https://i.ibb.co/m4MzmdQ/DIPLOMA.jpg" alt="Logo" width="700" height="500">
   </a>
 
 ### Built With 
