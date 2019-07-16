@@ -4,6 +4,8 @@
 *** an issue with the tag "enhancement".
 *** Thanks again! Now go create something AMAZING! :D
 -->
+
+[![MIT License][license-shield]][license-url]
                                         
 <p align="center">
 <img src="https://i.udemycdn.com/course/750x422/701426_9d54_2.jpg">
@@ -17,7 +19,6 @@
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
-* [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
@@ -27,57 +28,104 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<p align="center">
-[<img src="https://i.ibb.co/7XVCcZd/Imagen-carpetas-eclipse.jpg">](https://github.com/davidmooren/portfolio/tree/master/Learning%20programs/Java%20SE)
 
-[Español] <br >
+ [Español] <br >
 
-Programas realizados para aprender en el curso de 240 horas intensivas en 1 mes de Java en la empresa Luca TIC soluciones S.L. 
+Programas realizados para aprender a programar con Java en el curso de 240 horas intensivas en 1 mes en la empresa Luca TIC soluciones S.L. 
 
 [Ingles] <br >
 
-### Built With
+Programs made to learn to program with Java in the course of 240 intensive hours in 1 month in the company Luca TIC Soluciones S.L.
 
+ <p align="center">
+  <a href="https://i.ibb.co/m4MzmdQ/DIPLOMA.jpg">
+    <img src="https://i.ibb.co/m4MzmdQ/DIPLOMA.jpg" alt="Logo" width="500" height="500">
+  </a>
+
+### Built With 
+     
 * [Java](https://www.java.com/es/)
 * [Bootstrap](https://getbootstrap.com)
 * [Spring](https://spring.io/)
 * [Maven](https://maven.apache.org/)
 * [Tomcat](http://tomcat.apache.org/)
+* [Angular](https://angular.io/)
+* [AngularJS](https://angularjs.org/)
+* [JPA](https://www.oracle.com/technetwork/java/javaee/tech/persistence-jsp-140049.html)
+* [UML](https://www.uml.org/)
+* [JDBC](https://www.oracle.com/technetwork/java/javase/jdbc/index.html)
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
+[Español] <br >
 Para poder ejecutar los programas sigue las siguientes instrucciones: 
+
+[Ingles] <br >
+
+To execute the programs, follow the following instructions:
 
 * [1. Prerequisites](#Prerequisites)
 
-* [2. Usage](#Usage)
+* [2. Installation](#Installation)
 
 ### Prerequisites
 
 1. Java compatible IDE <br >
-2. 
+2. Instalar JDK
 
 ### Installation
 
-1. Clonar repositorio
+[Español] <br >
+Seguir las instrucciones de importación al IDE que quieras usar (Hay mas de dos IDE's pero estos son unos de los mas usados):
+
+[Ingles] <br >
+
+Follow the import instructions to the IDE you want to use (There are more than two IDE's but these are some of the most used):
+
+1.[`Importar a Eclipse`](https://github.com/collab-uniba/socialcde4eclipse/wiki/How-to-import-a-GitHub-project-into-Eclipse)<br >
+2.[`Importar a NetBeans`](https://netbeans.org/kb/docs/ide/git.html)
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+[Español] <br >
+Son diferentes programas, desde el mas basico "Hola mundo" hasta proyectos mas complejos con BBDD,Spring, Rest y Angular
 
-Son diferentes programas, desde el mas basico "Hola mundo" hasta proyectos mas complejos con Spring, Rest y Angular
+Entre ellos dos proyectos grupales llamados:
+
+-Proyecto-1-Java-BBDD	
+-Proyecto-2-grupo-4-Lucatic
+
+Utilizando la metodologia de trabajo SCRUM y poniendo enfasis en mejorar las "soft skills"
+ 
 
 
-<!-- ROADMAP -->
-## Roadmap
+[Ingles] <br >
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+They are different programs, from the most basic "Hello world" to more complex projects with BBDD, Spring, Rest and Angular
 
+Among them two group projects called:
+
+-Proyecto-1-Java-BBDD	
+-Proyecto-2-grupo-4-Lucatic
+
+Using the SCRUM working methodology and putting emphasis on improving the "soft skills"
 
 
 <!-- CONTRIBUTING -->
 ## Contributing
+
+[Español] <br >
+
+Las contribuciones son las que hacen que la comunidad de código abierto sea un lugar increíble para aprender, inspirar y crear. Cualquier contribución que hagas es ** muy apreciada **.
+
+1. Teniendo en cuenta el proyecto
+2. Crea tu rama de funciones (`git checkout -b feature / AmazingFeature`)
+3. Confirma tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Haz un "Push to the Branch" (`git push origin feature/AmazingFeature`)
+5. Haz un "Pull Request"
+
+[Ingles] <br >
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -99,22 +147,21 @@ Distributed under the MIT License. See [`LICENSE`](https://github.com/othneildre
 <!-- CONTACT -->
 ## Contact
 
-David - cesardavidmor@gmail.com
+Nombre: David <br >
+Email: cesardavidmor@gmail.com <br >
+Nº Movil: 601 022 399
+
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+
 * [Img Shields](https://shields.io)
 * [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
+* [Google Images](https://www.google.com/imghp?hl=en)
+* [imgbb](https://es.imgbb.com/)
+
+
 
 
 
@@ -122,14 +169,8 @@ David - cesardavidmor@gmail.com
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[build-shield]: https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square
-[build-url]: #
-[contributors-shield]: https://img.shields.io/badge/contributors-1-orange.svg?style=flat-square
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [license-shield]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
 [license-url]: https://choosealicense.com/licenses/mit
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: https://raw.githubusercontent.com/othneildrew/Best-README-Template/master/screenshot.png
+
 
 
