@@ -149,7 +149,7 @@ Distributed under the MIT License. See [`LICENSE`](https://github.com/othneildre
 ## Contact
 
 Nombre: David <br >
-Email:cesardavidmor@gmail.com <br >
+Email: cesardavidmor@gmail.com <br >
 Nº Movil: 601 022 399
 
 
@@ -161,6 +161,8 @@ Nº Movil: 601 022 399
 * [Choose an Open Source License](https://choosealicense.com)
 * [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
 * [Font Awesome](https://fontawesome.com)
+* [Google Images](https://www.google.com/imghp?hl=en)
+
 
 
 
@@ -168,14 +170,8 @@ Nº Movil: 601 022 399
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[build-shield]: https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square
-[build-url]: #
-[contributors-shield]: https://img.shields.io/badge/contributors-1-orange.svg?style=flat-square
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [license-shield]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
 [license-url]: https://choosealicense.com/licenses/mit
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: https://raw.githubusercontent.com/othneildrew/Best-README-Template/master/screenshot.png
+
 
 
