@@ -27,11 +27,11 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+<!--
   <p align="center">
   <a href="https://github.com/davidmooren/portfolio/tree/master/Learning%20programs/Java%20SE)">
     <img src="https://i.ibb.co/7XVCcZd/Imagen-carpetas-eclipse.jpg" alt="Logo" width="800" height="500">
-  </a>
+  </a>-->
 
 [Español] <br >
 
@@ -94,6 +94,18 @@ Son diferentes programas, desde el mas basico "Hola mundo" hasta proyectos mas c
 
 <!-- CONTRIBUTING -->
 ## Contributing
+
+[Español] <br >
+
+Las contribuciones son las que hacen que la comunidad de código abierto sea un lugar increíble para aprender, inspirar y crear. Cualquier contribución que hagas es ** muy apreciada **.
+
+1. Teniendo en cuenta el proyecto
+2. Crea tu rama de funciones (`git checkout -b feature / AmazingFeature`)
+3. Confirma tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Haz un "Push to the Branch" (`git push origin feature/AmazingFeature`)
+5. Haz un "Pull Request"
+
+[Ingles] <br >
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
