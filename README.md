@@ -28,19 +28,19 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<!--
-  <p align="center">
-  <a href="https://github.com/davidmooren/portfolio/tree/master/Learning%20programs/Java%20SE)">
-    <img src="https://i.ibb.co/7XVCcZd/Imagen-carpetas-eclipse.jpg" alt="Logo" width="800" height="500">
-  </a>-->
 
-[Español] <br >
+ [Español] <br >
 
 Programas realizados para aprender a programar con Java en el curso de 240 horas intensivas en 1 mes en la empresa Luca TIC soluciones S.L. 
 
 [Ingles] <br >
 
 Programs made to learn to program with Java in the course of 240 intensive hours in 1 month in the company Luca TIC Soluciones S.L.
+
+ <p align="center">
+  <a href="https://github.com/davidmooren/portfolio/tree/master/Java%20course%20Learning%20exercises)">
+    <img src="https://i.ibb.co/m4MzmdQ/DIPLOMA.jpg" alt="Logo" width="800" height="500">
+  </a>
 
 ### Built With 
      
@@ -161,6 +161,8 @@ Nº Movil: 601 022 399
 * [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
 * [Font Awesome](https://fontawesome.com)
 * [Google Images](https://www.google.com/imghp?hl=en)
+* [imgbb](https://es.imgbb.com/)
+
 
 
 
