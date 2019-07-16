@@ -30,7 +30,7 @@
 
   <p align="center">
   <a href="https://github.com/davidmooren/portfolio/tree/master/Learning%20programs/Java%20SE)">
-    <img src="https://i.ibb.co/7XVCcZd/Imagen-carpetas-eclipse.jpg" alt="Logo" width="900" height="500">
+    <img src="https://i.ibb.co/7XVCcZd/Imagen-carpetas-eclipse.jpg" alt="Logo" width="800" height="500">
   </a>
 
 [Español] <br >
