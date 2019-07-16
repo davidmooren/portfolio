@@ -158,8 +158,6 @@ Nº Movil: 601 022 399
 
 * [Img Shields](https://shields.io)
 * [Choose an Open Source License](https://choosealicense.com)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Font Awesome](https://fontawesome.com)
 * [Google Images](https://www.google.com/imghp?hl=en)
 * [imgbb](https://es.imgbb.com/)
 
